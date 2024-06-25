@@ -1,0 +1,111 @@
+body {
+    font-family: sans-serif;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 2%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .product-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+    float: center;
+  }
+  .product-info {
+    margin-left: 20px;
+  }
+  .product-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .product-description {
+    margin-bottom: 10px;
+  }
+  .product-price {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #2196F3;
+  }
+  .product-rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .product-rating i {
+    color: #FFD700;
+    font-size: 16px;
+  }
+  .product-reviews {
+    margin-bottom: 10px;
+  }
+  .product-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  .add-to-cart {
+    background-color: #2196F3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .buy-now {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .product-details {
+    margin-top: 20px;
+    display: flex;
+  }
+  .product-details-left {
+    width: 50%;
+  }
+  .product-details-right {
+    width: 50%;
+  }
+  .product-details-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .product-details-value {
+    margin-bottom: 10px;
+  }
+  .product-details-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  .product-details-list {
+    list-style: none;
+    padding: 0;
+  }
+  .product-details-list li {
+    margin-bottom: 5px;
+  }
+  .product-details-list i {
+    margin-right: 5px;
+  }
+  .product-details-button {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
